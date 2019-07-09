@@ -24,13 +24,16 @@ and we need to tweak our filter a little bit more:
 /etc/pam.d/passwd
 /usr/bin/passwd
 [root@centos7 ~]# 
+
 Let's add a second pipe to our already well modified output, let's use "cat -n" to see each line whit its "line number":
 [root@centos7 ~]# locate passwd | grep "/passwd$" | cat -n
      1  /etc/passwd
      2  /etc/pam.d/passwd
      3  /usr/bin/passwd
 [root@centos7 ~]# 
-What if I'm just curious of the several appareances of the word "passwd" and want to see line numbers,see example below:
+
+What if I'm just curious about the several appareances of the word "passwd" (sort of *passwd*)and want
+to see line numbers,see example below:
 
 [root@centos7 ~]# locate passwd | cat -n | less
 1  /etc/passwd
@@ -66,5 +69,9 @@ What if I'm just curious of the several appareances of the word "passwd" and wan
     .
     .
     .
-    etc
+    113  /usr/share/man/zh_TW/man8/chpasswd.8.gz
+   114  /usr/share/vim/vim74/ftplugin/passwd.vim
+   115  /usr/share/vim/vim74/syntax/passwd.vim
+   (END)
+   To exit "less" text editor you must press "q" that represents the word "quit"
     
