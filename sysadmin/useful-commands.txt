@@ -1,2 +1,29 @@
 ls = list files in a directory
-ls -a = the "-a" to include the hidden files (usually begin with a dot)
+ls -a = the "-a" is used to include the hidden files (usually begin with a dot)
+
+If you want additional detail about the files and folders listed you can add "l"
+ls -la
+See an example below:
+[root@centos7 ~]# ls -la
+total 36
+dr-xr-x---.  7 root root  218 Jul  9 07:37 .
+dr-xr-xr-x. 17 root root  224 Jun 30 06:39 ..
+-rw-------.  1 root root 1409 Jun 30 06:41 anaconda-ks.cfg
+-rw-------.  1 root root 5021 Jul  8 08:04 .bash_history
+-rw-r--r--.  1 root root   18 Dec 28  2013 .bash_logout
+-rw-r--r--.  1 root root  176 Dec 28  2013 .bash_profile
+-rw-r--r--.  1 root root  176 Dec 28  2013 .bashrc
+drwxr-xr-x.  3 root root   22 Jul  7 10:39 .cache
+drwxr-xr-x.  3 root root   22 Jul  1 23:13 .config
+-rw-r--r--.  1 root root  100 Dec 28  2013 .cshrc
+drwxr-xr-x.  3 root root   19 Jul  7 10:39 .local
+drwxr-----.  3 root root   19 Jul  1 07:58 .pki
+drwx------.  2 root root   29 Jun 30 09:08 .ssh
+-rw-r--r--.  1 root root  129 Dec 28  2013 .tcshrc
+-rw-------.  1 root root  625 Jul  8 07:44 .viminfo
+[root@centos7 ~]# 
+
+Each line begins withe either the letter "d" or a dash "-".
+"d" represents a "directory"
+"-" represents a "file"
+
