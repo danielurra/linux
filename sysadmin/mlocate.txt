@@ -1,2 +1,8 @@
 How to install "locate" on CentOS 7
 "yum install mlocate"
+After installing mlocate, you need to update the updatedb.
+"sudo updatedb"
+See example below piping a long output to "wc" for counting the amount of lines "-l":
+[root@centos7 ~]# locate passwd | wc -l
+115
+[root@centos7 ~]#
