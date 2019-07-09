@@ -1,0 +1,2 @@
+ls = list files in a directory
+ls -a = the "-a" to include the hidden files (usually begin with a dot)
