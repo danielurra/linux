@@ -11,5 +11,5 @@ file "passwd" that is located inside the directory "/etc":<br>
 <img src="/sysadmin/images/grep-01.png" alt="filtering locate"><br>
 ## Terminal Emulator<br>
 By the way for those of you wondering about the terminal emulator I prefer<br>
-and which color scheme was selected, see below screenshot<br>
+and which color scheme was selected, see below screenshot (SecureCRT)<br>
 <img src="/sysadmin/images/SecureCRT-emulation-linux-ANSI-color.png" alt="securecrt"><br>
