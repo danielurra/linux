@@ -1,0 +1,2 @@
+How to install "locate" on CentOS 7
+"yum install mlocate"
