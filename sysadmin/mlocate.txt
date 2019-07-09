@@ -30,3 +30,41 @@ Let's add a second pipe to our already well modified output, let's use "cat -n" 
      2  /etc/pam.d/passwd
      3  /usr/bin/passwd
 [root@centos7 ~]# 
+What if I'm just curious of the several appareances of the word "passwd" and want to see line numbers,see example below:
+
+[root@centos7 ~]# locate passwd | cat -n | less
+1  /etc/passwd
+     2  /etc/passwd-
+     3  /etc/pam.d/passwd
+     4  /etc/security/opasswd
+     5  /usr/bin/gpasswd
+     6  /usr/bin/grub2-mkpasswd-pbkdf2
+     7  /usr/bin/htpasswd
+     8  /usr/bin/passwd
+     9  /usr/include/rpcsvc/yppasswd.h
+    10  /usr/include/rpcsvc/yppasswd.x
+    11  /usr/lib/firewalld/services/kpasswd.xml
+    12  /usr/lib64/security/pam_unix_passwd.so
+    13  /usr/sbin/chpasswd
+    14  /usr/sbin/lpasswd
+    15  /usr/sbin/saslpasswd2
+    16  /usr/share/awk/passwd.awk
+    17  /usr/share/doc/passwd-0.79
+    18  /usr/share/doc/passwd-0.79/AUTHORS
+    19  /usr/share/doc/passwd-0.79/COPYING
+    20  /usr/share/doc/passwd-0.79/ChangeLog
+    21  /usr/share/doc/passwd-0.79/NEWS
+    22  /usr/share/locale/ar/LC_MESSAGES/passwd.mo
+    23  /usr/share/locale/as/LC_MESSAGES/passwd.mo
+    24  /usr/share/locale/ast/LC_MESSAGES/passwd.mo
+    25  /usr/share/locale/bg/LC_MESSAGES/passwd.mo
+    26  /usr/share/locale/bn/LC_MESSAGES/passwd.mo
+    27  /usr/share/locale/bn_IN/LC_MESSAGES/passwd.mo
+    28  /usr/share/locale/bs/LC_MESSAGES/passwd.mo
+    29  /usr/share/locale/ca/LC_MESSAGES/passwd.mo
+    30  /usr/share/locale/cs/LC_MESSAGES/passwd.mo
+    .
+    .
+    .
+    etc
+    
