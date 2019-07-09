@@ -24,3 +24,9 @@ and we need to tweak our filter a little bit more:
 /etc/pam.d/passwd
 /usr/bin/passwd
 [root@centos7 ~]# 
+Let's add a second pipe to our already well modified output, let's use "cat -n" to see each line whit its "line number":
+[root@centos7 ~]# locate passwd | grep "/passwd$" | cat -n
+     1  /etc/passwd
+     2  /etc/pam.d/passwd
+     3  /usr/bin/passwd
+[root@centos7 ~]# 
