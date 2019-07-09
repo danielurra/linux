@@ -6,3 +6,21 @@ See example below piping a long output to "wc" for counting the amount of lines 
 [root@centos7 ~]# locate passwd | wc -l
 115
 [root@centos7 ~]#
+Now you can pipe the output to grep to select only line wich contain the word "passwd"
+[root@centos7 ~]# locate passwd | grep "passwd$"
+/etc/passwd
+/etc/pam.d/passwd
+/etc/security/opasswd
+/usr/bin/gpasswd
+/usr/bin/htpasswd
+/usr/bin/passwd
+/usr/sbin/chpasswd
+/usr/sbin/lpasswd
+[root@centos7 ~]# 
+As you can see we do have a few false positves (those starting with other letters like "opasswd" or "gpasswd")
+and we need to tweak our filter a little bit more:
+[root@centos7 ~]# locate passwd | grep "/passwd$"
+/etc/passwd
+/etc/pam.d/passwd
+/usr/bin/passwd
+[root@centos7 ~]# 
