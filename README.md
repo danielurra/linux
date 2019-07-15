@@ -22,7 +22,7 @@ that way we will only see a list of directories, see the screnshoot below <br>
 As you can see I had to cut off the list because it is too long <br>
 <br>
 If you are wondering how many directories we have, then we can redirect <br>
-the output to "wc" (word count)including the option "-l" to count the amount of lines <br>
+the output to "wc" (word count) including the option "-l" to count the amount of lines <br>
 <img src="/sysadmin/images/grep-and-reg-expressions-02.png" alt="grep and regular expressions 02"><br>
 <br>
 ## Terminal Emulator<br>
