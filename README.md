@@ -17,6 +17,9 @@ Another good example could be to list all the files and folders inside /etc <br>
 and using grep to filter the output of "ls" to only files which start with the letter "d" <br>
 that way we will only see a list of directories,see the screnshoot below <br>
 <img src="/sysadmin/images/grep-and-reg-expressions-01.png" alt="grep and regular expressions"><br>
+As you can see I had to cut off the list because it is too long <br>
+If you are wondering how many directories we have, then we can redirect <br>
+the output to "wc" (word count)including the option "-l" to count the amount of lines <br>
 <img src="/sysadmin/images/grep-and-reg-expressions-02.png" alt="grep and regular expressions 02"><br>
 ## Terminal Emulator<br>
 By the way for those of you wondering about the terminal emulator I prefer<br>
