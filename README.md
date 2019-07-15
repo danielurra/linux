@@ -7,7 +7,7 @@ Most of the time I work with CentOS<br>
 <img src="/sysadmin/images/filtering-locate-01.png" alt="filtering locate"><br>
 ## Grep<br>
 Grep is a tool used to search for certain expressions in data <br>
-these expressions can be "Plain Text" or those known as "Regular Expressions" <br>
+these expressions can be "<b>Plain Text</b>" or those known as "<b>Regular Expressions</b>" <br>
 And the input for this command could be either an existent file or the output <br>
 coming from another command (redirecting using pipe) <br>
 <br>
