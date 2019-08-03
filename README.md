@@ -29,3 +29,5 @@ the output to "wc" (word count) including the option "-l" to count the amount of
 By the way for those of you wondering about the terminal emulator I prefer<br>
 and which color scheme was selected, see below screenshot (SecureCRT)<br>
 <img src="/sysadmin/images/SecureCRT-emulation-linux-ANSI-color.png" alt="securecrt"><br>
+<br>
+## $PATH (environment variable)<br>
