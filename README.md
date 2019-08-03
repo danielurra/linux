@@ -31,3 +31,5 @@ and which color scheme was selected, see below screenshot (SecureCRT)<br>
 <img src="/sysadmin/images/SecureCRT-emulation-linux-ANSI-color.png" alt="securecrt"><br>
 <br>
 ## $PATH (environment variable)<br>
+$PATH is an environment variable used to specify a set of directories where executable programs are located<br>
+In general either for Windows, Linux and Mac, each executing process or user session has its own PATH setting<br>
