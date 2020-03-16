@@ -33,4 +33,5 @@ and which color scheme was selected, see below screenshot (SecureCRT)<br>
 ## $PATH (environment variable)<br>
 $PATH is an environment variable used to specify a set of directories where executable programs are located<br>
 In general either for Windows, Linux or Mac, each executing process or user session has its own PATH setting<br>
+echo $PATH | tr ':' '\n'
 <img src="/sysadmin/images/echo-path.jpg" alt="path"><br>
