@@ -5,7 +5,8 @@ and also to get up to date on current trends in the sysadmin field, Most of the 
 ## Locate<br>
 <img src="/sysadmin/images/filtering-locate-01.png" alt="filtering locate"><br>
 ## Grep<br>
-Grep is a tool used to search for certain expressions, these expressions can be searched as "<b>Plain Text</b>" or by taking advantages of "<b>Regular Expressions</b>" <br>
+Grep is a tool used to search for certain expressions, these expressions can be searched as "<b>Plain Text</b>" or<br>
+by taking advantage of "<b>Regular Expressions</b>" `regex`<br>
 And the input for this command could be either an existent file or the output, coming from another command (redirecting using pipe) <br>
 <br>
 See below an example of using "grep" to find and highlight the word "bin" (plain text) inside the <br>
