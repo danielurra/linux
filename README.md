@@ -5,10 +5,8 @@ and also to get up to date on current trends in the sysadmin field, Most of the 
 ## Locate<br>
 <img src="/sysadmin/images/filtering-locate-01.png" alt="filtering locate"><br>
 ## Grep<br>
-Grep is a tool used to search for certain expressions in data <br>
-these expressions can be "<b>Plain Text</b>" or those known as "<b>Regular Expressions</b>" <br>
-And the input for this command could be either an existent file or the output <br>
-coming from another command (redirecting using pipe) <br>
+Grep is a tool used to search for certain expressions in data, these expressions can be "<b>Plain Text</b>" or those known as "<b>Regular Expressions</b>" <br>
+And the input for this command could be either an existent file or the output, coming from another command (redirecting using pipe) <br>
 <br>
 See below an example of using "grep" to find and highlight the word "bin" (plain text) inside the <br>
 file "passwd" that is located inside the directory "/etc":<br>
