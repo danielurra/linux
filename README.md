@@ -5,7 +5,7 @@ and also to get up to date on current trends in the sysadmin field, Most of the 
 ## Locate<br>
 <img src="/sysadmin/images/filtering-locate-01.png" alt="filtering locate"><br>
 ## Grep<br>
-Grep is a tool used to find certain data, expressions can be searched as "<b>Plain Text</b>"
+Grep Global Regular Expression Print) is a tool used to find certain data, expressions can be searched as "<b>Plain Text</b>"
 If we are looking for patterns we can take advantage of "<b>Regular Expressions</b>" `regex`<br>
 And the input for this command could be either an existent file or the output, coming from another command (redirecting using pipe) <br>
 <br>
